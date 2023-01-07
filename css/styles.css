@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, serif;
+}
+
+.main {
+    background-image: url("../images/bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    padding: 34px 0;
+    border-bottom:1px solid rgba(255, 255, 255, 0.2);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logo {
+    margin-right: 283px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu-item a {
+    font-size: 16px;
+    color: rgb(237, 224, 248);
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.course {
+    padding: 150px 0 200px 0;
+}
+
+.course-item {
+    max-width: 455px;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    margin-bottom: 90px;
+}
+
+.item {
+    margin-bottom: 80px;
+}
+
+.course-way {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.course img {
+    vertical-align: bottom;
+    padding-right: 14px;
+}
+
+.button {
+    text-align: center;
+    width: 224px;
+    padding: 22px 0 23px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button.button-white-border {
+    background: transparent;
+    border: 1px solid white;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.course-results {
+    padding: 140px 0 115px;
+}
+
+.course-results-item {
+    max-width: 600px;
+    margin-bottom: 72px;
+    font-size: 35px;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+}
+
+.course-results-points {
+    list-style-type: none;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: rgb(49, 27, 94);
+}
+
+.course-results-points img {
+    vertical-align: bottom;
+    margin-right: 15px;
+}
+
+.lesson {
+    background: url("../images/bg2.png") center no-repeat;
+    background-size: cover;
+}
+
+.lesson-page {
+    padding: 140px 100px;
+}
+
+.lesson-block {
+    max-width: 996px;
+    background-color: white;
+    padding: 60px 110px 45px;
+    border-radius: 19px;
+}
+
+.lesson-item {
+    font-size: 35px;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+    line-height: 1.571;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.lesson-text {
+    font-size: 16px;
+    color: rgb(49, 27, 94);
+    line-height: 1.5;
+    text-align: center;
+    max-width: 572px;
+    margin: 0 auto 30px;
+}
+
+
+.button.button-lesson {
+    background: transparent;
+    border: 1px solid #b180e4;
+    font-size: 16px;
+    color: #b180e4;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.button-lesson {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer {
+    border-top:1px solid rgba(255, 255, 255, 0.2);
+    padding: 46px 0 46px 0;
+}
+
+.footer-container {
+    text-align: center;
+}
